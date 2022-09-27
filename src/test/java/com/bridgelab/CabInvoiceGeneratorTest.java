@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CabInvoiceGeneratorTest {
+    CabInvoiceGenerator generator;
     @Test
     void givenDistanceAndTime_Should_Return_Total_Fare_Of_Money() {
         CabInvoiceGenerator generator = new CabInvoiceGenerator();
